@@ -11,14 +11,14 @@ import helper
 
 # Setting page layout
 st.set_page_config(
-    page_title="Object Detection using YOLOv8",
+    page_title="Corrosion Level Detection using YOLOv8",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
 # Main page heading
-st.title("Object Detection And Tracking using YOLOv8")
+st.title("Corrosion Level Detection using YOLOv8")
 
 # Sidebar
 st.sidebar.header("ML Model Config")
